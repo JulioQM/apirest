@@ -13,7 +13,8 @@ app.use(cors())
 app.use(require("./routers/index"))
 
 //Execution 
-app.get('/',(req,res)=> [res.send('Welcome to Puntos de antención de Turismo API ')])
+app.get('/',(req, res) => {res.send("Welcome to E_COMMERCE API-REST")})
+//app.get('/',(req,res)=> [res.send('Welcome to Puntos de antención de Turismo API ')])
 /* app.listen(3001)
 console.log("Server running in http://localhost:3001") */
 //ejecucion

@@ -6,7 +6,7 @@ const{
     getTurismoName
 }=require("../controllers/turismo.controller")
 
-router.get("/",getTurismo)
+router.get("/servicio",getTurismo)
 
 
 module.exports=router
